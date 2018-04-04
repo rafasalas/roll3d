@@ -61,10 +61,11 @@ public void setup (){
     }
 
 
-public void draw(){ ambientLight(200,200,200);
-  directionalLight(200,200,200, 0, -1, -1);
+public void draw(){ //ambientLight(200,200,200);
+ // directionalLight(200,200,200, 0, -1, -1);
   //ambient(255,255,255);
-    lightFalloff(0.0f, 0.0f, 0.5f);
+   // lightFalloff(0.0f, 0.0f, 0.5f);
+    lights();
     cameraPosition = new PVector(1,-1,1);
   
   if (rotacion==true){angulorot=sentido*(frameCount * 0.01f);}
