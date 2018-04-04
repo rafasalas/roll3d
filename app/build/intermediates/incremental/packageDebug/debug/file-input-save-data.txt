@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Wed Apr 04 13:17:17 CEST 2018
+2.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=texture.png
+2.baseType=DIRECTORY
+3.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=atractorr.png
+4.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+count=7
+5.baseType=DIRECTORY
+2.path=atractorr (1).png
+5.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=repulsor.png
+6.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=neuro.txt
+6.set=DEX
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lro.mp3
+0.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=classes.dex
+1.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET
