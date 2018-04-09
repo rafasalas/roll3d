@@ -45,7 +45,7 @@ public void setup (){
             rotacion=true;
             sentido=1;
             angulorot=0;
-    estorninos=new Storsimple(150,1);
+    estorninos=new Storsimple(100,1);
     central=new Atractor(1);
     lateral1=new Atractor(3);
     lateral2=new Atractor(3);
@@ -56,7 +56,8 @@ public void setup (){
  lateral2.posicion=new PVector(-width/2, -height/2, -600);
  lateral3.posicion=new PVector(-(width/2), height/2, 600);
  lateral4.posicion=new PVector((width/2), -(height/2),-600);
-     color_fondo=color(0,0,0);   
+     color_fondo=color(0,0,0);
+
    
     }
 
@@ -66,6 +67,7 @@ public void draw(){ //ambientLight(200,200,200);
   //ambient(255,255,255);
    // lightFalloff(0.0f, 0.0f, 0.5f);
     lights();
+    shininess(1.0f);
     cameraPosition = new PVector(1,-1,1);
   
   if (rotacion==true){angulorot=sentido*(frameCount * 0.01f);}
@@ -435,6 +437,7 @@ int r,g,b,a;
   float lifespan;
   boolean eterna;
   int decay;
+    PShape rock;
   Particula() {
     posicion=new PVector(random(width), random(height));
     velocidad=new PVector (0, 0);
@@ -452,6 +455,8 @@ int r,g,b,a;
     eterna=false;
     decay=2;
     //masa=30;
+      rock=loadShape("rocket.obj");
+      rock.scale(5f*masa);
   }
 
   public void acelerar(PVector acelerador) {
@@ -572,8 +577,10 @@ class Astilla extends Particula{
                       rectMode (CENTER);
                      pushMatrix();
                      translate(posicion.x, posicion.y, posicion.z);
-                     rotateZ(angular);
-                  box (masa*3, masa*15, masa*1);
+                     rotateZ(angular+PI);
+                  //box (masa*3, masa*15, masa*1);
+        tint (r,g,b, opacidad);
+                    shape(rock);
                    //sphere(masa);
                     popMatrix();
                       }
