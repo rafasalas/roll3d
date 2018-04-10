@@ -45,7 +45,7 @@ public void setup (){
             rotacion=true;
             sentido=1;
             angulorot=0;
-    estorninos=new Storsimple(100,1);
+    estorninos=new Storsimple(75,1);
     central=new Atractor(1);
     lateral1=new Atractor(3);
     lateral2=new Atractor(3);
@@ -457,7 +457,7 @@ int r,g,b,a;
     decay=2;
     //masa=30;
       rock=loadShape("rocket.obj");
-      rock.scale(5f*masa);
+      rock.scale(0.8f*masa);
   }
 
   public void acelerar(PVector acelerador) {
