@@ -62,11 +62,12 @@ public void setup (){
     }
 
 
-public void draw(){ //ambientLight(200,200,200);
- // directionalLight(200,200,200, 0, -1, -1);
-  //ambient(255,255,255);
-   // lightFalloff(0.0f, 0.0f, 0.5f);
-    lights();
+public void draw(){
+   ambientLight(200,200,200);
+ directionalLight(200,200,200, 0, -1, -1);
+  ambient(255,255,255);
+   lightFalloff(0.0f, 0.0f, 0.5f);
+    //lights();
     shininess(1.0f);
     cameraPosition = new PVector(1,-1,1);
   
@@ -579,7 +580,9 @@ class Astilla extends Particula{
                      translate(posicion.x, posicion.y, posicion.z);
                      rotateZ(angular+PI);
                   //box (masa*3, masa*15, masa*1);
-        tint (r,g,b, opacidad);
+        //tint (r,g,b, opacidad);
+        rock.setFill(color(r,g,b,a));
+        rock.setStroke((color(r,g,b,a)));
                     shape(rock);
                    //sphere(masa);
                     popMatrix();
