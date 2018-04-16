@@ -420,6 +420,10 @@
         "source": "C:\\Users\\salas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\4aaae0d269be597fe2b49dc340bdad70\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "D:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\res\\merged\\debug\\xml_wallpaper.xml.flat",
+        "source": "D:\\rafa\\roll\\android.180404.1213\\app\\src\\main\\res\\xml\\wallpaper.xml"
+    },
+    {
         "merged": "D:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
         "source": "C:\\Users\\salas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\4aaae0d269be597fe2b49dc340bdad70\\res\\color-v23\\abc_tint_spinner.xml"
     },
@@ -1058,6 +1062,10 @@
     {
         "merged": "D:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_fab_out.xml.flat",
         "source": "C:\\Users\\salas\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\32ecc3014c00d7a84aeb3d21fef8c038\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\rafa\\roll\\android.180404.1213\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",

@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="processing.test.roll3d_android">
     <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="26"/>
-    <application android:icon="@drawable/icon" android:label="roll3d_android">
-        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+
+
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <application
+
+        android:name="processing.test.roll3d_android.global"
+
+        android:icon="@drawable/icon" android:label="roll3d_android">
+
+
+
+
+
+        <activity android:name="MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".MainService"
+            android:label="roll3d_android"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+
+        <activity android:name="processing.android.PermissionRequestor" />
+
     </application>
 </manifest>

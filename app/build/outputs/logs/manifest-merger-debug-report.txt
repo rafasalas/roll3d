@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\49046bdb8a1721152d5886d8d1332a66\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\4aaae0d269be597fe2b49dc340bdad70\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\d132cf421e90596effc8a8cd1ebfbaec\AndroidManifest.xml:2:1-10:12
@@ -18,9 +19,9 @@ MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\salas\.gradle\
 MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\750223630d1215231cdae1badc1bd90f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:percent:26.0.0] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\8b24774d1e23f1f96f6b3775b6120a6f\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d76e0883d7ead56ec0d49c20afbe58b0\AndroidManifest.xml:17:1-31:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
-INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:2:120-160
 		INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml
@@ -39,6 +40,8 @@ uses-sdk
 ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:3:5-73
 INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:3:5-73
 INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:3:5-73
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\49046bdb8a1721152d5886d8d1332a66\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\49046bdb8a1721152d5886d8d1332a66\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\4aaae0d269be597fe2b49dc340bdad70\AndroidManifest.xml:21:5-23:78
@@ -79,8 +82,38 @@ INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:
 		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:3:15-41
 		INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml
 		INJECTED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml
+uses-feature#android.software.live_wallpaper
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:7:19-65
+uses-permission#android.permission.INTERNET
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:14:22-77
 application
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:4:5-11:19
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:16:5-48:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\49046bdb8a1721152d5886d8d1332a66\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\49046bdb8a1721152d5886d8d1332a66\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\4aaae0d269be597fe2b49dc340bdad70\AndroidManifest.xml:29:5-20
@@ -110,25 +143,51 @@ MERGED from [com.android.support:percent:26.0.0] C:\Users\salas\.gradle\caches\t
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d76e0883d7ead56ec0d49c20afbe58b0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\d76e0883d7ead56ec0d49c20afbe58b0\AndroidManifest.xml:25:5-29:19
 	android:label
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:4:48-78
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:20:39-69
 	android:icon
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:4:18-47
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:20:9-38
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:18:9-61
 activity#processing.test.roll3d_android.MainActivity
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:5:9-10:20
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:theme
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:5:48-115
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:26:47-114
 	android:name
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:5:19-47
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:26:19-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:6:13-9:29
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:7:17-68
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:7:25-66
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:8:17-76
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:8:27-74
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:29:27-74
+service#processing.test.roll3d_android.MainService
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:33:9-44:19
+	android:label
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:35:13-43
+	android:permission
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:36:13-67
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:34:13-40
+intent-filter#android.service.wallpaper.WallpaperService
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:37:13-39:29
+action#android.service.wallpaper.WallpaperService
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:38:17-85
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:38:25-82
+meta-data#android.service.wallpaper
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:41:13-43:53
+	android:resource
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:43:17-50
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:42:17-57
+activity#processing.android.PermissionRequestor
+ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:46:9-75
+	android:name
+		ADDED from D:\rafa\roll\android.180404.1213\app\src\main\AndroidManifest.xml:46:19-72
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\32ecc3014c00d7a84aeb3d21fef8c038\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\salas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\4aaae0d269be597fe2b49dc340bdad70\AndroidManifest.xml:25:5-27:34

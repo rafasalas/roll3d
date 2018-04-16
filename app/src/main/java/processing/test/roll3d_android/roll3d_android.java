@@ -1,6 +1,8 @@
 package processing.test.roll3d_android;
 
-import processing.core.*; 
+import android.content.Context;
+
+import processing.core.*;
 import processing.data.*; 
 import processing.event.*; 
 import processing.opengl.*; 
@@ -22,8 +24,8 @@ public class roll3d_android extends PApplet {
 
 
 
-
-
+    Context context;
+    final global dataglobal;
 
 int opacidad;
 Storsimple estorninos;
@@ -35,6 +37,11 @@ boolean rotacion=true;
 int sentido=1;
 float angulorot=0;
 PVector cameraPosition;
+    public roll3d_android(Context context){
+        super();
+        this.context=context;
+        dataglobal = (global) context;
+    }
 
 public void setup (){
               
@@ -70,7 +77,8 @@ public void draw(){
     //lights();
     shininess(1.0f);
     cameraPosition = new PVector(1,-1,1);
-  
+
+
   if (rotacion==true){angulorot=sentido*(frameCount * 0.01f);}
     
   cameraPosition.rotate(angulorot);
@@ -84,7 +92,7 @@ public void draw(){
  
   camera(eye_x, eye_y, eye_z, 0.0f, 0.0f, 0.0f, 0, 1, 0);
   flujo=0;
- 
+    flujo=dataglobal.getIntensity();
 central.sentido=-1-flujo; 
 lateral1.sentido=-0.5f*flujo;
 lateral2.sentido=-0.5f*flujo;
