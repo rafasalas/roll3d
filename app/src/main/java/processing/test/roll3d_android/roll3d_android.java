@@ -52,7 +52,7 @@ public void setup (){
             rotacion=true;
             sentido=1;
             angulorot=0;
-    estorninos=new Storsimple(75,1);
+    estorninos=new Storsimple(50,1);
     central=new Atractor(1);
     lateral1=new Atractor(3);
     lateral2=new Atractor(3);
@@ -72,6 +72,7 @@ public void setup (){
 public void draw(){
    ambientLight(200,200,200);
  directionalLight(200,200,200, 0, -1, -1);
+    directionalLight(200,200,200, 0, 1, 1);
   ambient(255,255,255);
    lightFalloff(0.0f, 0.0f, 0.5f);
     //lights();
@@ -464,8 +465,9 @@ int r,g,b,a;
     eterna=false;
     decay=2;
     //masa=30;
-      rock=loadShape("rocket.obj");
-      rock.scale(0.8f*masa);
+      //rock=loadShape("rocket.obj");
+      rock=loadShape("fish.obj");
+      rock.scale(2f*masa);
   }
 
   public void acelerar(PVector acelerador) {
@@ -579,14 +581,16 @@ class Astilla extends Particula{
                     strokeWeight(1);
                       fill(r,g,b,a);
                       //angular=atan2(velocidad.y,velocidad.x);
-                      angular=velocidad.heading()+(PI/2);
+                      angular=velocidad.heading()+(PI);
                       //angular=constrain (angular,-0.1,0.1);
                       
                       
                       rectMode (CENTER);
                      pushMatrix();
                      translate(posicion.x, posicion.y, posicion.z);
-                     rotateZ(angular+PI);
+         //rocket            //rotateZ(angular+PI);
+                       // rotateY(angular+(PI));
+                   rotateX(angular);
                   //box (masa*3, masa*15, masa*1);
         //tint (r,g,b, opacidad);
         rock.setFill(color(r,g,b,a));
