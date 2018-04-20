@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 16 14:27:21 CEST 2018
+#Fri Apr 20 11:32:38 CEST 2018
 4.path=fish.obj
 8.set=ASSET
 6.path=classes.dex
@@ -7,7 +7,7 @@
 10.path=neuro.txt
 5.baseType=DIRECTORY
 1.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
-8.path=repulsor.png
+8.path=fish.mtl
 12.path=lro.mp3
 3.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
 4.set=ASSET
@@ -31,7 +31,7 @@
 0.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
 7.path=tree.mtl
 11.path=rocket.mtl
-9.path=fish.mtl
+9.path=repulsor.png
 6.set=DEX
 2.base=D\:\\rafa\\roll\\android.180404.1213\\app\\build\\intermediates\\assets\\debug
 11.baseType=DIRECTORY

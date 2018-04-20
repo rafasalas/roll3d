@@ -581,16 +581,19 @@ class Astilla extends Particula{
                     strokeWeight(1);
                       fill(r,g,b,a);
                       //angular=atan2(velocidad.y,velocidad.x);
-                      angular=velocidad.heading()+(PI);
+                      angular=velocidad.heading()-(PI/2);
                       //angular=constrain (angular,-0.1,0.1);
                       
                       
                       rectMode (CENTER);
                      pushMatrix();
                      translate(posicion.x, posicion.y, posicion.z);
-         //rocket            //rotateZ(angular+PI);
-                       // rotateY(angular+(PI));
-                   rotateX(angular);
+         //rocket            //
+        rotateZ(angular);
+        rotateY(PI/2);
+                      // rotateZ(angular);
+                      // rotateY(angular-(PI/2));
+                   //rotateX(angular);
                   //box (masa*3, masa*15, masa*1);
         //tint (r,g,b, opacidad);
         rock.setFill(color(r,g,b,a));
