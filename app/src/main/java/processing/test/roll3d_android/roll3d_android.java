@@ -70,7 +70,7 @@ public void setup (){
 
 
 public void draw(){
-   ambientLight(200,200,200);
+   ambientLight(100,100,100);
  directionalLight(200,200,200, 0, -1, -1);
     directionalLight(200,200,200, 0, 1, 1);
   ambient(255,255,255);
@@ -94,6 +94,7 @@ public void draw(){
   camera(eye_x, eye_y, eye_z, 0.0f, 0.0f, 0.0f, 0, 1, 0);
   flujo=0;
     flujo=dataglobal.getIntensity();
+    if (flujo==0){flujo=random(0.01f,0.5f);}
 central.sentido=-1-flujo; 
 lateral1.sentido=-0.5f*flujo;
 lateral2.sentido=-0.5f*flujo;
